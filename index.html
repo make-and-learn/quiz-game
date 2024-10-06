@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <!-- ビューポートの設定：レスポンシブデザイン対応 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>クイズゲーム</title>
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- クイズゲームのメインコンテナ -->
+    <div class="quiz-container">
+        <h1>クイズゲーム</h1>
+        <!-- 問題と選択肢を表示するコンテナ -->
+        <div id="question-container">
+            <!-- 問題文を表示する要素 -->
+            <p id="question"></p>
+            <!-- 選択肢を表示する要素 -->
+            <div id="choices"></div>
+        </div>
+        <!-- 結果を表示する要素 -->
+        <p id="result"></p>
+        <!-- 次の問題へ進むボタン（初期状態では非表示） -->
+        <button id="next-button" style="display: none;">次の問題</button>
+    </div>
+    <!-- クイズデータを含むJavaScriptファイルの読み込み -->
+    <script src="quiz-data.js"></script>
+    <!-- クイズゲームの動作を制御するJavaScriptファイルの読み込み -->
+    <script src="quiz-game.js"></script>
+</body>
+</html>

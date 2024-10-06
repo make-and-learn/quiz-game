@@ -1,0 +1,105 @@
+# OS generated files
+# これらはオペレーティングシステムが自動的に生成するファイルで、プロジェクトには不要です
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+# エディタ固有の設定ファイルやディレクトリ。これらは個人の開発環境に依存するため、共有する必要はありません
+.idea
+.vscode
+*.swp
+*.swo
+
+# Logs
+# ログファイルは一般的に共有する必要がなく、サイズが大きくなる可能性があります
+logs
+*.log
+
+# Dependency directories
+# これらのディレクトリには、プロジェクトの依存関係が含まれています。package.jsonから再生成できるため、リポジトリに含める必要はありません
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+# npmのキャッシュディレクトリ。ローカル環境に特有のものです
+.npm
+
+# Optional eslint cache
+# ESLintのキャッシュファイル。ローカル環境に特有のものです
+.eslintcache
+
+# Optional REPL history
+# Node.js REPLの履歴ファイル。個人の開発履歴なので共有する必要はありません
+.node_repl_history
+
+# Output of 'npm pack'
+# npm packコマンドの出力ファイル。配布用のアーカイブなので、ソースコード管理には不要です
+*.tgz
+
+# Yarn Integrity file
+# Yarnの整合性チェックファイル。ローカル環境に特有のものです
+.yarn-integrity
+
+# dotenv environment variables file
+# 環境変数を含むファイル。機密情報が含まれる可能性があるため、共有してはいけません
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+# Parcelバンドラーのキャッシュ。ビルド時に生成されるので、共有する必要はありません
+.cache
+.parcel-cache
+
+# Next.js build output
+# Next.jsのビルド出力。ソースコードから再生成できるため、共有する必要はありません
+.next
+out
+
+# Nuxt.js build / generate output
+# Nuxt.jsのビルド/生成出力。ソースコードから再生成できるため、共有する必要はありません
+.nuxt
+dist
+
+# Gatsby files
+# Gatsbyの一時ファイルとビルド出力。ソースコードから再生成できます
+.cache/
+# Comment in the public line in if your project uses Gatsby and not Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+
+# VuePress build output
+# VuePressのビルド出力。ソースコードから再生成できます
+.vuepress/dist
+
+# Serverless directories
+# Serverlessフレームワークの一時ファイル。ローカル環境に特有のものです
+.serverless/
+
+# FuseBox cache
+# FuseBoxのキャッシュ。ビルド時に生成されるので、共有する必要はありません
+.fusebox/
+
+# DynamoDB Local files
+# ローカルのDynamoDBファイル。開発環境に特有のものです
+.dynamodb/
+
+# TernJS port file
+# Tern JSのポート設定ファイル。ローカル環境に特有のものです
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+# VSCode拡張機能のテストに使用されるVSCodeのバージョン情報。開発環境に特有のものです
+.vscode-test
+
+# yarn v2
+# Yarn v2の特定のファイルとディレクトリ。これらは再生成可能なため、共有する必要はありません
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
